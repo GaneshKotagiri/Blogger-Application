@@ -1,0 +1,9 @@
+2024-03-28 23:55:47.982354-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS INFORMATION_SCHEMA[*].TABLE_CONSTRAINTS"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS INFORMATION_SCHEMA.TABLE_CONSTRAINTS [42000-224]
+2024-03-28 23:56:33.759141-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]AUTHOR_ID"; expected "ALTER, ANALYZE"; SQL statement:
+AUTHOR_ID [42001-224]
+2024-03-28 23:57:37.353278-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]AUTHOR_ID"; expected "ALTER, ANALYZE"; SQL statement:
+AUTHOR_ID [42001-224]
